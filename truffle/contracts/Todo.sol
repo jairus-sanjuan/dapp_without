@@ -1,7 +1,7 @@
 pragma solidity ^0.6.1;
 
 
-contract TodoList {
+contract Todo {
     uint256 public taskCount = 0;
 
     struct Task {

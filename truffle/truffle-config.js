@@ -7,8 +7,9 @@ module.exports = {
       network_id: '*', // Any network (default: none)
     },
     ropsten: {
-      protocol: 'https',
-      host: 'ropsten.infura.io/v3/96622c420b9e4d1aafc9120ab9226156',
+      host: 'https://ropsten.infura.io/v3/96622c420b9e4d1aafc9120ab9226156',
+      port: '',
+      network_id: '*',
     },
   },
 
